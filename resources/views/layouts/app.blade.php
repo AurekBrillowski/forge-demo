@@ -9,7 +9,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- <title>{{ config('app.name', 'Laravel') }}</title> -->
-    <title>Laravel Forge Demo</title>
+    <title>Laravel Forgery Demo</title>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -36,7 +36,7 @@
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
                         @guest
-                            <li><a class="nav-link" href="{{ url('/login') }}">Log In</a></li>
+                            <li><a class="nav-link" href="{{ url('/login') }}">Log It</a></li>
                             <li><a class="nav-link" href="{{ url('/register') }}">Register</a></li>
                         @else
                             <li class="nav-item dropdown">
