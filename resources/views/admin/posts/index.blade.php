@@ -27,7 +27,7 @@
                         <br/>
                         <br/>
                         <div class="table-responsive">
-                            <table class="table">
+                            <table class="table" style="background-color: #aa0; fontsize: 30px;">
                                 <thead>
                                     <tr>
                                         <th>#</th><th>Title</th><th>Content</th><th>Category</th><th>Actions</th>
